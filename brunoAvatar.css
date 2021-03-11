@@ -1,0 +1,52 @@
+.body-bruno {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none;
+    cursor: grab;
+  }
+  #brunoavatar {
+    background-image: -webkit-radial-gradient(#f99393, #971d1d);
+    background-image: radial-gradient(#f99393, #971d1d);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  #brunoavatar.noBreathe {
+    background-image: -webkit-radial-gradient(#00d2ff, #3a7bd5);
+    background-image: radial-gradient(#00d2ff, #3a7bd5);
+  }
+  #brunoavatar-social,
+  #brunoavatar-info {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+  }
+  
+  #brunoavatar-info {
+    top: 20px;
+  }
+  #brunoavatar-info span {
+    color: #ffe25f;
+    font-weight: bold;
+  }
+  #brunoavatar-info h1 {
+    margin-bottom: 2px;
+  }
+  
+  a.brunoavartar-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  

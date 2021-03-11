@@ -373,7 +373,7 @@ function Bruno() {
 
     const heartShape = new THREE.Shape();
 
-    // heartShape.moveTo(x + 5, y + 5);
+    heartShape.moveTo(x + 5, y + 5);
     heartShape.bezierCurveTo(x + 5, y + 5, x + 4, y, x, y);
     heartShape.bezierCurveTo(x - 6, y, x - 6, y + 7, x - 6, y + 7);
     heartShape.bezierCurveTo(x - 6, y + 11, x - 3, y + 15.4, x + 5, y + 19);
